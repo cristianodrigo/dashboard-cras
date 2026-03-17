@@ -1,5 +1,4 @@
 import { Button } from "@/components/ui/button";
-import { ScrollArea } from "@/components/ui/scroll-area";
 import { Sheet, SheetContent, SheetTrigger, SheetTitle } from "@/components/ui/sheet";
 import { cn } from "@/lib/utils";
 import { BarChart3, LayoutDashboard, Menu, PieChart, Search } from "lucide-react";
@@ -23,7 +22,7 @@ export function DashboardLayout({ children, cras, onSelectCra, selectedCra, onDe
 
   const SidebarContent = () => (
     <div className="flex h-full flex-col bg-sidebar text-sidebar-foreground border-r border-sidebar-border">
-      <div className="p-6 border-b border-sidebar-border">
+      <div className="shrink-0 p-6 border-b border-sidebar-border">
         <div className="flex items-center gap-3 mb-6">
           <img src="/logo-gci.png" alt="Grupo Ceres Investimentos" className="h-10 w-10 object-contain" />
           <div>
@@ -44,7 +43,7 @@ export function DashboardLayout({ children, cras, onSelectCra, selectedCra, onDe
         </div>
       </div>
 
-      <ScrollArea className="flex-1 py-4">
+      <div className="flex-1 overflow-y-auto py-4">
         <div className="px-4 space-y-1">
           <Button
             variant={selectedCra === "Visão Geral" ? "secondary" : "ghost"}
@@ -104,9 +103,9 @@ export function DashboardLayout({ children, cras, onSelectCra, selectedCra, onDe
             </div>
           )}
         </div>
-      </ScrollArea>
+      </div>
       
-      <div className="p-4 border-t border-sidebar-border bg-sidebar-accent/20">
+      <div className="shrink-0 p-4 border-t border-sidebar-border bg-sidebar-accent/20">
         <div className="flex items-center gap-3">
           <div className="h-8 w-8 rounded-full bg-primary/10 flex items-center justify-center text-primary font-bold text-xs">
             CI
