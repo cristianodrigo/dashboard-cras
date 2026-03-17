@@ -8,82 +8,69 @@ interface PDFExportProps {
   type: "dashboard" | "detalhes";
 }
 
-const OKLCH_RE = /oklch\([^)]+\)/gi;
+const OKLCH_RE = /oklch\([^)]+\)/g;
 
-function oklchToRgb(oklch: string): string {
+function oklchToRgb(oklchStr: string): string {
   const canvas = document.createElement("canvas");
   canvas.width = 1;
   canvas.height = 1;
   const ctx = canvas.getContext("2d");
-  if (!ctx) return oklch;
-  ctx.fillStyle = oklch;
+  if (!ctx) return oklchStr;
+  ctx.fillStyle = oklchStr;
   ctx.fillRect(0, 0, 1, 1);
   const [r, g, b, a] = ctx.getImageData(0, 0, 1, 1).data;
   return a < 255 ? `rgba(${r}, ${g}, ${b}, ${(a / 255).toFixed(3)})` : `rgb(${r}, ${g}, ${b})`;
 }
 
-function replaceOklchInValue(value: string): string {
-  return value.replace(OKLCH_RE, (match) => oklchToRgb(match));
-}
+function patchStyleSheetsForPdf(): (() => void) {
+  const originalTexts: { sheet: CSSStyleSheet; originals: string[] }[] = [];
 
-function resolveOklchVars(el: HTMLElement) {
-  const computed = getComputedStyle(el);
-  const colorProps = [
-    "color",
-    "background-color",
-    "background",
-    "border-color",
-    "border-top-color",
-    "border-right-color",
-    "border-bottom-color",
-    "border-left-color",
-    "outline-color",
-    "box-shadow",
-    "text-decoration-color",
-    "fill",
-    "stroke",
-    "stop-color",
-  ];
-
-  for (const prop of colorProps) {
-    const val = computed.getPropertyValue(prop);
-    if (val && OKLCH_RE.test(val)) {
-      el.style.setProperty(prop, replaceOklchInValue(val), "important");
+  for (const sheet of Array.from(document.styleSheets)) {
+    let rules: CSSRuleList;
+    try {
+      rules = sheet.cssRules;
+    } catch {
+      continue;
     }
-  }
 
-  const inlineStyle = el.getAttribute("style") || "";
-  if (OKLCH_RE.test(inlineStyle)) {
-    el.setAttribute("style", replaceOklchInValue(inlineStyle));
-  }
-}
+    const patches: { index: number; original: string; patched: string }[] = [];
 
-function resolveOklchCssVarsOnRoot(el: HTMLElement) {
-  const computed = getComputedStyle(document.documentElement);
-  const rootStyle = document.documentElement.style;
-  const cssText = Array.from(document.styleSheets)
-    .flatMap((s) => {
-      try {
-        return Array.from(s.cssRules);
-      } catch {
-        return [];
+    for (let i = 0; i < rules.length; i++) {
+      const text = rules[i].cssText;
+      if (OKLCH_RE.test(text)) {
+        patches.push({
+          index: i,
+          original: text,
+          patched: text.replace(OKLCH_RE, (m) => oklchToRgb(m)),
+        });
       }
-    })
-    .map((r) => r.cssText)
-    .join("\n");
+    }
 
-  const varMatches = cssText.match(/--[\w-]+/g);
-  if (!varMatches) return;
+    if (patches.length > 0) {
+      const origList = Array.from(rules).map((r) => r.cssText);
+      originalTexts.push({ sheet, originals: origList });
 
-  const uniqueVars = [...new Set(varMatches)];
-  for (const v of uniqueVars) {
-    const val = computed.getPropertyValue(v).trim();
-    if (val && OKLCH_RE.test(val)) {
-      el.style.setProperty(v, replaceOklchInValue(val));
+      for (const p of patches.reverse()) {
+        sheet.deleteRule(p.index);
+        sheet.insertRule(p.patched, p.index);
+      }
     }
   }
 
-  void rootStyle;
+  return () => {
+    for (const { sheet, originals } of originalTexts) {
+      while (sheet.cssRules.length > 0) {
+        sheet.deleteRule(0);
+      }
+      for (const rule of originals) {
+        try {
+          sheet.insertRule(rule, sheet.cssRules.length);
+        } catch {
+          // skip rules that can't be re-inserted
+        }
+      }
+    }
+  };
 }
 
 export function PDFExport({ craName, contentRef, type }: PDFExportProps) {
@@ -94,12 +81,12 @@ export function PDFExport({ craName, contentRef, type }: PDFExportProps) {
     if (!element) return;
 
     setLoading(true);
+    let restoreStyles: (() => void) | null = null;
     try {
       const html2pdf = (await import("html2pdf.js")).default;
       const filename = `${craName.replace(/[^a-z0-9]/gi, "_")}_${type}_${new Date().toISOString().split("T")[0]}.pdf`;
 
       const clone = element.cloneNode(true) as HTMLElement;
-
       clone.style.width = "1100px";
       clone.style.padding = "24px";
       clone.style.background = "#ffffff";
@@ -127,9 +114,7 @@ export function PDFExport({ craName, contentRef, type }: PDFExportProps) {
       wrapper.appendChild(clone);
       document.body.appendChild(wrapper);
 
-      resolveOklchCssVarsOnRoot(clone);
-      clone.querySelectorAll("*").forEach((child) => resolveOklchVars(child as HTMLElement));
-      resolveOklchVars(clone);
+      restoreStyles = patchStyleSheetsForPdf();
 
       await html2pdf()
         .set({
@@ -154,6 +139,7 @@ export function PDFExport({ craName, contentRef, type }: PDFExportProps) {
     } catch (error) {
       console.error("Erro ao exportar PDF:", error);
     } finally {
+      if (restoreStyles) restoreStyles();
       setLoading(false);
     }
   }, [contentRef, craName, type]);
