@@ -4,7 +4,8 @@ WORKDIR /app
 
 # ── Dependências ────────────────────────────────────────────────
 FROM base AS deps
-COPY package.json pnpm-lock.yaml ./
+RUN apk add --no-cache python3 make g++
+COPY package.json pnpm-lock.yaml pnpm-workspace.yaml ./
 COPY patches/ patches/
 RUN pnpm install --frozen-lockfile
 
@@ -23,7 +24,6 @@ COPY --from=build /app/dist ./dist
 COPY --from=deps  /app/node_modules ./node_modules
 COPY package.json ./
 
-# Copiar dados JSON estáticos para que o servidor os encontre
 COPY client/public/data/          dist/public/data/
 COPY client/public/cra_image_mapping.json  dist/public/cra_image_mapping.json
 COPY client/public/limites_preenchidos.json dist/public/limites_preenchidos.json
@@ -34,7 +34,6 @@ ENV NODE_ENV=production
 ENV PORT=3000
 ENV DATA_DIR=/app/data
 
-# Volume para banco SQLite (persistente entre deploys)
 VOLUME ["/app/data"]
 
 EXPOSE 3000
