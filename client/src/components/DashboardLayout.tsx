@@ -149,7 +149,7 @@ export function DashboardLayout({ children, cras, onSelectCra, selectedCra, onDe
           </Sheet>
         </header>
 
-        <main className="flex-1 p-4 md:p-8 overflow-x-hidden">
+        <main className="flex-1 p-4 md:p-8 overflow-x-auto">
           <div className="max-w-7xl mx-auto w-full animate-in fade-in slide-in-from-bottom-4 duration-500">
             {children}
           </div>
