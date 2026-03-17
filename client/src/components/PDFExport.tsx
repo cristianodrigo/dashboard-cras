@@ -8,69 +8,20 @@ interface PDFExportProps {
   type: "dashboard" | "detalhes";
 }
 
-const OKLCH_RE = /oklch\([^)]+\)/g;
-
-function oklchToRgb(oklchStr: string): string {
-  const canvas = document.createElement("canvas");
-  canvas.width = 1;
-  canvas.height = 1;
-  const ctx = canvas.getContext("2d");
-  if (!ctx) return oklchStr;
-  ctx.fillStyle = oklchStr;
-  ctx.fillRect(0, 0, 1, 1);
-  const [r, g, b, a] = ctx.getImageData(0, 0, 1, 1).data;
-  return a < 255 ? `rgba(${r}, ${g}, ${b}, ${(a / 255).toFixed(3)})` : `rgb(${r}, ${g}, ${b})`;
-}
-
-function patchStyleSheetsForPdf(): (() => void) {
-  const originalTexts: { sheet: CSSStyleSheet; originals: string[] }[] = [];
-
+function collectStyles(): string {
+  const parts: string[] = [];
   for (const sheet of Array.from(document.styleSheets)) {
-    let rules: CSSRuleList;
     try {
-      rules = sheet.cssRules;
-    } catch {
-      continue;
-    }
-
-    const patches: { index: number; original: string; patched: string }[] = [];
-
-    for (let i = 0; i < rules.length; i++) {
-      const text = rules[i].cssText;
-      if (OKLCH_RE.test(text)) {
-        patches.push({
-          index: i,
-          original: text,
-          patched: text.replace(OKLCH_RE, (m) => oklchToRgb(m)),
-        });
+      for (const rule of Array.from(sheet.cssRules)) {
+        parts.push(rule.cssText);
       }
-    }
-
-    if (patches.length > 0) {
-      const origList = Array.from(rules).map((r) => r.cssText);
-      originalTexts.push({ sheet, originals: origList });
-
-      for (const p of patches.reverse()) {
-        sheet.deleteRule(p.index);
-        sheet.insertRule(p.patched, p.index);
+    } catch {
+      if (sheet.href) {
+        parts.push(`@import url("${sheet.href}");`);
       }
     }
   }
-
-  return () => {
-    for (const { sheet, originals } of originalTexts) {
-      while (sheet.cssRules.length > 0) {
-        sheet.deleteRule(0);
-      }
-      for (const rule of originals) {
-        try {
-          sheet.insertRule(rule, sheet.cssRules.length);
-        } catch {
-          // skip rules that can't be re-inserted
-        }
-      }
-    }
-  };
+  return parts.join("\n");
 }
 
 export function PDFExport({ craName, contentRef, type }: PDFExportProps) {
@@ -81,65 +32,66 @@ export function PDFExport({ craName, contentRef, type }: PDFExportProps) {
     if (!element) return;
 
     setLoading(true);
-    let restoreStyles: (() => void) | null = null;
     try {
-      const html2pdf = (await import("html2pdf.js")).default;
-      const filename = `${craName.replace(/[^a-z0-9]/gi, "_")}_${type}_${new Date().toISOString().split("T")[0]}.pdf`;
+      const filename = `${craName.replace(/[^a-z0-9]/gi, "_")}_${type}_${new Date().toISOString().split("T")[0]}`;
 
       const clone = element.cloneNode(true) as HTMLElement;
-      clone.style.width = "1100px";
-      clone.style.padding = "24px";
-      clone.style.background = "#ffffff";
-      clone.style.color = "#1a1a2e";
-
       clone.querySelectorAll("button").forEach((btn) => btn.remove());
 
-      clone.querySelectorAll(".recharts-responsive-container").forEach((container) => {
-        const svg = container.querySelector("svg");
-        if (svg) {
-          const box =
-            svg.getAttribute("viewBox") ||
-            `0 0 ${svg.getAttribute("width") || 500} ${svg.getAttribute("height") || 320}`;
-          svg.setAttribute("viewBox", box);
-          svg.setAttribute("width", "100%");
-          svg.setAttribute("height", "320");
-          svg.style.maxWidth = "100%";
-        }
+      const styles = collectStyles();
+
+      const printWindow = window.open("", "_blank");
+      if (!printWindow) {
+        alert("Permita pop-ups para exportar o PDF.");
+        return;
+      }
+
+      printWindow.document.write(`<!DOCTYPE html>
+<html>
+<head>
+  <title>${filename}</title>
+  <style>${styles}</style>
+  <style>
+    @page {
+      size: A4 landscape;
+      margin: 10mm;
+    }
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: #ffffff;
+      color: #1a1a2e;
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+    body {
+      padding: 24px;
+      max-width: 1100px;
+    }
+    @media print {
+      body { padding: 0; }
+    }
+  </style>
+</head>
+<body>
+  ${clone.outerHTML}
+</body>
+</html>`);
+
+      printWindow.document.close();
+
+      await new Promise<void>((resolve) => {
+        printWindow.onload = () => resolve();
+        setTimeout(resolve, 2000);
       });
 
-      const wrapper = document.createElement("div");
-      wrapper.style.position = "absolute";
-      wrapper.style.left = "-9999px";
-      wrapper.style.top = "0";
-      wrapper.appendChild(clone);
-      document.body.appendChild(wrapper);
+      await new Promise((r) => setTimeout(r, 500));
 
-      restoreStyles = patchStyleSheetsForPdf();
-
-      await html2pdf()
-        .set({
-          margin: [10, 10, 10, 10],
-          filename,
-          image: { type: "jpeg", quality: 0.95 },
-          html2canvas: {
-            scale: 2,
-            useCORS: true,
-            logging: false,
-            letterRendering: true,
-            backgroundColor: "#ffffff",
-            windowWidth: 1100,
-          },
-          jsPDF: { orientation: "landscape", unit: "mm", format: "a4" },
-          pagebreak: { mode: ["avoid-all", "css", "legacy"] },
-        })
-        .from(clone)
-        .save();
-
-      document.body.removeChild(wrapper);
+      printWindow.focus();
+      printWindow.print();
     } catch (error) {
       console.error("Erro ao exportar PDF:", error);
     } finally {
-      if (restoreStyles) restoreStyles();
       setLoading(false);
     }
   }, [contentRef, craName, type]);
