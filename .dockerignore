@@ -1,0 +1,10 @@
+node_modules
+dist
+data
+.manus-logs
+.git
+.gitignore
+*.tar.gz
+*.md
+.prettierrc
+.prettierignore

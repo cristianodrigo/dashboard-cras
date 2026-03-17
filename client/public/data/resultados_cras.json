@@ -1,0 +1,1190 @@
+{
+  "1ª - CRA URA (Artesanal)": {
+    "nome": "1ª - CRA URA (Artesanal)",
+    "total_titulos": 785,
+    "valor_total": 87918425.25000009,
+    "vencidos_vincendos": {
+      "vencidos": {
+        "quantidade": 575,
+        "valor": 56864237.82000001
+      },
+      "vincendos": {
+        "quantidade": 210,
+        "valor": 31054187.430000022
+      }
+    },
+    "vencidos_por_periodo": {},
+    "sacados": {
+      "especial": {
+        "quantidade": 0,
+        "valor": 0,
+        "sacados_unicos": 0,
+        "maior_valor": 0
+      },
+      "nao_especial": {
+        "quantidade": 785,
+        "valor": 87918425.25000009,
+        "sacados_unicos": 0,
+        "maior_valor": 6601451.66
+      }
+    },
+    "novos_sacados": {
+      "quantidade": 0,
+      "valor": 0,
+      "sacados_unicos": 0
+    },
+    "substituidos_total": {
+      "quantidade": 0,
+      "valor": 0
+    },
+    "partes_relacionadas": {
+      "quantidade": 0,
+      "valor": 0,
+      "sacados_unicos": 0
+    }
+  },
+  "22ª - CRA Portal Agro": {
+    "nome": "22ª - CRA Portal Agro",
+    "total_titulos": 402,
+    "valor_total": 154266675.11999992,
+    "vencidos_vincendos": {
+      "vencidos": {
+        "quantidade": 95,
+        "valor": 20369746.569999997
+      },
+      "vincendos": {
+        "quantidade": 307,
+        "valor": 133896928.54999998
+      }
+    },
+    "vencidos_por_periodo": {},
+    "sacados": {
+      "especial": {
+        "quantidade": 0,
+        "valor": 0,
+        "sacados_unicos": 0,
+        "maior_valor": 0
+      },
+      "nao_especial": {
+        "quantidade": 402,
+        "valor": 154266675.11999992,
+        "sacados_unicos": 0,
+        "maior_valor": 13447170.0
+      }
+    },
+    "novos_sacados": {
+      "quantidade": 0,
+      "valor": 0,
+      "sacados_unicos": 0
+    },
+    "substituidos_total": {
+      "quantidade": 0,
+      "valor": 0
+    },
+    "partes_relacionadas": {
+      "quantidade": 0,
+      "valor": 0,
+      "sacados_unicos": 0
+    }
+  },
+  "25ª CRA Eloagrícola": {
+    "nome": "25ª CRA Eloagrícola",
+    "total_titulos": 2412,
+    "valor_total": 63888398.54999999,
+    "vencidos_vincendos": {
+      "vencidos": {
+        "quantidade": 2359,
+        "valor": 42932699.92999999
+      },
+      "vincendos": {
+        "quantidade": 53,
+        "valor": 20955698.62
+      }
+    },
+    "vencidos_por_periodo": {},
+    "sacados": {
+      "especial": {
+        "quantidade": 0,
+        "valor": 0,
+        "sacados_unicos": 0,
+        "maior_valor": 0
+      },
+      "nao_especial": {
+        "quantidade": 2412,
+        "valor": 63888398.54999999,
+        "sacados_unicos": 0,
+        "maior_valor": 1973797.04
+      }
+    },
+    "novos_sacados": {
+      "quantidade": 0,
+      "valor": 0,
+      "sacados_unicos": 0
+    },
+    "substituidos_total": {
+      "quantidade": 0,
+      "valor": 0
+    },
+    "partes_relacionadas": {
+      "quantidade": 0,
+      "valor": 0,
+      "sacados_unicos": 0
+    }
+  },
+  "28ª - CRA Ura Agro (13) Renovagro": {
+    "nome": "28ª - CRA Ura Agro (13) Renovagro",
+    "total_titulos": 10,
+    "valor_total": 6638830.880000001,
+    "vencidos_vincendos": {
+      "vencidos": {
+        "quantidade": 10,
+        "valor": 6638830.880000001
+      },
+      "vincendos": {
+        "quantidade": 0,
+        "valor": 0
+      }
+    },
+    "vencidos_por_periodo": {},
+    "sacados": {
+      "especial": {
+        "quantidade": 0,
+        "valor": 0,
+        "sacados_unicos": 0,
+        "maior_valor": 0
+      },
+      "nao_especial": {
+        "quantidade": 10,
+        "valor": 6638830.880000001,
+        "sacados_unicos": 0,
+        "maior_valor": 829853.86
+      }
+    },
+    "novos_sacados": {
+      "quantidade": 0,
+      "valor": 0,
+      "sacados_unicos": 0
+    },
+    "substituidos_total": {
+      "quantidade": 0,
+      "valor": 0
+    },
+    "partes_relacionadas": {
+      "quantidade": 0,
+      "valor": 0,
+      "sacados_unicos": 0
+    }
+  },
+  "33ª - CRA Agro Boa Esperança": {
+    "nome": "33ª - CRA Agro Boa Esperança",
+    "total_titulos": 296,
+    "valor_total": 14430913.440000007,
+    "vencidos_vincendos": {
+      "vencidos": {
+        "quantidade": 295,
+        "valor": 14377930.440000007
+      },
+      "vincendos": {
+        "quantidade": 1,
+        "valor": 52983.0
+      }
+    },
+    "vencidos_por_periodo": {},
+    "sacados": {
+      "especial": {
+        "quantidade": 0,
+        "valor": 0,
+        "sacados_unicos": 0,
+        "maior_valor": 0
+      },
+      "nao_especial": {
+        "quantidade": 296,
+        "valor": 14430913.440000007,
+        "sacados_unicos": 0,
+        "maior_valor": 326981.67
+      }
+    },
+    "novos_sacados": {
+      "quantidade": 0,
+      "valor": 0,
+      "sacados_unicos": 0
+    },
+    "substituidos_total": {
+      "quantidade": 0,
+      "valor": 0
+    },
+    "partes_relacionadas": {
+      "quantidade": 0,
+      "valor": 0,
+      "sacados_unicos": 0
+    }
+  },
+  "34ª CRA Nativa": {
+    "nome": "34ª CRA Nativa",
+    "total_titulos": 737,
+    "valor_total": 52966938.03999999,
+    "vencidos_vincendos": {
+      "vencidos": {
+        "quantidade": 506,
+        "valor": 35509243.21999999
+      },
+      "vincendos": {
+        "quantidade": 231,
+        "valor": 17457694.819999997
+      }
+    },
+    "vencidos_por_periodo": {},
+    "sacados": {
+      "especial": {
+        "quantidade": 0,
+        "valor": 0,
+        "sacados_unicos": 0,
+        "maior_valor": 0
+      },
+      "nao_especial": {
+        "quantidade": 737,
+        "valor": 52966938.03999999,
+        "sacados_unicos": 0,
+        "maior_valor": 672199.24
+      }
+    },
+    "novos_sacados": {
+      "quantidade": 0,
+      "valor": 0,
+      "sacados_unicos": 0
+    },
+    "substituidos_total": {
+      "quantidade": 0,
+      "valor": 0
+    },
+    "partes_relacionadas": {
+      "quantidade": 0,
+      "valor": 0,
+      "sacados_unicos": 0
+    }
+  },
+  "36ª CRA URA AGRO (17)": {
+    "nome": "36ª CRA URA AGRO (17)",
+    "total_titulos": 1246,
+    "valor_total": 35160160.249999985,
+    "vencidos_vincendos": {
+      "vencidos": {
+        "quantidade": 1193,
+        "valor": 30594437.889999982
+      },
+      "vincendos": {
+        "quantidade": 53,
+        "valor": 4565722.359999999
+      }
+    },
+    "vencidos_por_periodo": {},
+    "sacados": {
+      "especial": {
+        "quantidade": 0,
+        "valor": 0,
+        "sacados_unicos": 0,
+        "maior_valor": 0
+      },
+      "nao_especial": {
+        "quantidade": 1246,
+        "valor": 35160160.249999985,
+        "sacados_unicos": 0,
+        "maior_valor": 1021709.0
+      }
+    },
+    "novos_sacados": {
+      "quantidade": 0,
+      "valor": 0,
+      "sacados_unicos": 0
+    },
+    "substituidos_total": {
+      "quantidade": 0,
+      "valor": 0
+    },
+    "partes_relacionadas": {
+      "quantidade": 0,
+      "valor": 0,
+      "sacados_unicos": 0
+    }
+  },
+  "39ª - CRA Valoriza Agronegócios": {
+    "nome": "39ª - CRA Valoriza Agronegócios",
+    "total_titulos": 1800,
+    "valor_total": 81843289.95000003,
+    "vencidos_vincendos": {
+      "vencidos": {
+        "quantidade": 1666,
+        "valor": 68382663.36000003
+      },
+      "vincendos": {
+        "quantidade": 134,
+        "valor": 13460626.589999996
+      }
+    },
+    "vencidos_por_periodo": {},
+    "sacados": {
+      "especial": {
+        "quantidade": 0,
+        "valor": 0,
+        "sacados_unicos": 0,
+        "maior_valor": 0
+      },
+      "nao_especial": {
+        "quantidade": 1800,
+        "valor": 81843289.95000003,
+        "sacados_unicos": 0,
+        "maior_valor": 1095588.0
+      }
+    },
+    "novos_sacados": {
+      "quantidade": 0,
+      "valor": 0,
+      "sacados_unicos": 0
+    },
+    "substituidos_total": {
+      "quantidade": 0,
+      "valor": 0
+    },
+    "partes_relacionadas": {
+      "quantidade": 0,
+      "valor": 0,
+      "sacados_unicos": 0
+    }
+  },
+  "40ª - CRA BR AGRO": {
+    "nome": "40ª - CRA BR AGRO",
+    "total_titulos": 2125,
+    "valor_total": 78769478.28999993,
+    "vencidos_vincendos": {
+      "vencidos": {
+        "quantidade": 1136,
+        "valor": 42386996.26999998
+      },
+      "vincendos": {
+        "quantidade": 989,
+        "valor": 36382482.01999999
+      }
+    },
+    "vencidos_por_periodo": {},
+    "sacados": {
+      "especial": {
+        "quantidade": 0,
+        "valor": 0,
+        "sacados_unicos": 0,
+        "maior_valor": 0
+      },
+      "nao_especial": {
+        "quantidade": 2125,
+        "valor": 78769478.28999993,
+        "sacados_unicos": 0,
+        "maior_valor": 1248000.0
+      }
+    },
+    "novos_sacados": {
+      "quantidade": 0,
+      "valor": 0,
+      "sacados_unicos": 0
+    },
+    "substituidos_total": {
+      "quantidade": 0,
+      "valor": 0
+    },
+    "partes_relacionadas": {
+      "quantidade": 0,
+      "valor": 0,
+      "sacados_unicos": 0
+    }
+  },
+  "42ª - CRA Ceres": {
+    "nome": "42ª - CRA Ceres",
+    "total_titulos": 10858,
+    "valor_total": 1901557307.989998,
+    "vencidos_vincendos": {
+      "vencidos": {
+        "quantidade": 7176,
+        "valor": 751822993.8600022
+      },
+      "vincendos": {
+        "quantidade": 3682,
+        "valor": 1149734314.1299992
+      }
+    },
+    "vencidos_por_periodo": {},
+    "sacados": {
+      "especial": {
+        "quantidade": 0,
+        "valor": 0,
+        "sacados_unicos": 0,
+        "maior_valor": 0
+      },
+      "nao_especial": {
+        "quantidade": 10858,
+        "valor": 1901557307.989998,
+        "sacados_unicos": 0,
+        "maior_valor": 78334047.76
+      }
+    },
+    "novos_sacados": {
+      "quantidade": 0,
+      "valor": 0,
+      "sacados_unicos": 0
+    },
+    "substituidos_total": {
+      "quantidade": 0,
+      "valor": 0
+    },
+    "partes_relacionadas": {
+      "quantidade": 0,
+      "valor": 0,
+      "sacados_unicos": 0
+    }
+  },
+  "43ª - CRA Gurupi": {
+    "nome": "43ª - CRA Gurupi",
+    "total_titulos": 242,
+    "valor_total": 15262711.94,
+    "vencidos_vincendos": {
+      "vencidos": {
+        "quantidade": 0,
+        "valor": 0
+      },
+      "vincendos": {
+        "quantidade": 242,
+        "valor": 15262711.94
+      }
+    },
+    "vencidos_por_periodo": {},
+    "sacados": {
+      "especial": {
+        "quantidade": 0,
+        "valor": 0,
+        "sacados_unicos": 0,
+        "maior_valor": 0
+      },
+      "nao_especial": {
+        "quantidade": 242,
+        "valor": 15262711.94,
+        "sacados_unicos": 0,
+        "maior_valor": 440789.56
+      }
+    },
+    "novos_sacados": {
+      "quantidade": 0,
+      "valor": 0,
+      "sacados_unicos": 0
+    },
+    "substituidos_total": {
+      "quantidade": 0,
+      "valor": 0
+    },
+    "partes_relacionadas": {
+      "quantidade": 0,
+      "valor": 0,
+      "sacados_unicos": 0
+    }
+  },
+  "44ª - CRA Carteira": {
+    "nome": "44ª - CRA Carteira",
+    "total_titulos": 364,
+    "valor_total": 45748171.98000001,
+    "vencidos_vincendos": {
+      "vencidos": {
+        "quantidade": 106,
+        "valor": 2735745.3600000003
+      },
+      "vincendos": {
+        "quantidade": 258,
+        "valor": 43012426.62000001
+      }
+    },
+    "vencidos_por_periodo": {},
+    "sacados": {
+      "especial": {
+        "quantidade": 0,
+        "valor": 0,
+        "sacados_unicos": 0,
+        "maior_valor": 0
+      },
+      "nao_especial": {
+        "quantidade": 364,
+        "valor": 45748171.98000001,
+        "sacados_unicos": 0,
+        "maior_valor": 14599999.91
+      }
+    },
+    "novos_sacados": {
+      "quantidade": 0,
+      "valor": 0,
+      "sacados_unicos": 0
+    },
+    "substituidos_total": {
+      "quantidade": 0,
+      "valor": 0
+    },
+    "partes_relacionadas": {
+      "quantidade": 0,
+      "valor": 0,
+      "sacados_unicos": 0
+    }
+  },
+  "45ª - CRA Carteira": {
+    "nome": "45ª - CRA Carteira",
+    "total_titulos": 297,
+    "valor_total": 47730818.460000016,
+    "vencidos_vincendos": {
+      "vencidos": {
+        "quantidade": 34,
+        "valor": 2436300.119999999
+      },
+      "vincendos": {
+        "quantidade": 263,
+        "valor": 45294518.34000002
+      }
+    },
+    "vencidos_por_periodo": {},
+    "sacados": {
+      "especial": {
+        "quantidade": 0,
+        "valor": 0,
+        "sacados_unicos": 0,
+        "maior_valor": 0
+      },
+      "nao_especial": {
+        "quantidade": 297,
+        "valor": 47730818.460000016,
+        "sacados_unicos": 0,
+        "maior_valor": 6329613.73
+      }
+    },
+    "novos_sacados": {
+      "quantidade": 0,
+      "valor": 0,
+      "sacados_unicos": 0
+    },
+    "substituidos_total": {
+      "quantidade": 0,
+      "valor": 0
+    },
+    "partes_relacionadas": {
+      "quantidade": 0,
+      "valor": 0,
+      "sacados_unicos": 0
+    }
+  },
+  "46ª - CRA Carteira": {
+    "nome": "46ª - CRA Carteira",
+    "total_titulos": 504,
+    "valor_total": 43257388.99999996,
+    "vencidos_vincendos": {
+      "vencidos": {
+        "quantidade": 9,
+        "valor": 180630.78
+      },
+      "vincendos": {
+        "quantidade": 495,
+        "valor": 43076758.21999996
+      }
+    },
+    "vencidos_por_periodo": {},
+    "sacados": {
+      "especial": {
+        "quantidade": 0,
+        "valor": 0,
+        "sacados_unicos": 0,
+        "maior_valor": 0
+      },
+      "nao_especial": {
+        "quantidade": 504,
+        "valor": 43257388.99999996,
+        "sacados_unicos": 0,
+        "maior_valor": 17881548.04
+      }
+    },
+    "novos_sacados": {
+      "quantidade": 0,
+      "valor": 0,
+      "sacados_unicos": 0
+    },
+    "substituidos_total": {
+      "quantidade": 0,
+      "valor": 0
+    },
+    "partes_relacionadas": {
+      "quantidade": 0,
+      "valor": 0,
+      "sacados_unicos": 0
+    }
+  },
+  "47ª CRA Carteira": {
+    "nome": "47ª CRA Carteira",
+    "total_titulos": 4,
+    "valor_total": 33189302.349999994,
+    "vencidos_vincendos": {
+      "vencidos": {
+        "quantidade": 0,
+        "valor": 0
+      },
+      "vincendos": {
+        "quantidade": 4,
+        "valor": 33189302.349999994
+      }
+    },
+    "vencidos_por_periodo": {},
+    "sacados": {
+      "especial": {
+        "quantidade": 0,
+        "valor": 0,
+        "sacados_unicos": 0,
+        "maior_valor": 0
+      },
+      "nao_especial": {
+        "quantidade": 4,
+        "valor": 33189302.349999994,
+        "sacados_unicos": 0,
+        "maior_valor": 12022557.2
+      }
+    },
+    "novos_sacados": {
+      "quantidade": 0,
+      "valor": 0,
+      "sacados_unicos": 0
+    },
+    "substituidos_total": {
+      "quantidade": 0,
+      "valor": 0
+    },
+    "partes_relacionadas": {
+      "quantidade": 0,
+      "valor": 0,
+      "sacados_unicos": 0
+    }
+  },
+  "48ª - CRA Carteira": {
+    "nome": "48ª - CRA Carteira",
+    "total_titulos": 4,
+    "valor_total": 32476706.83,
+    "vencidos_vincendos": {
+      "vencidos": {
+        "quantidade": 0,
+        "valor": 0
+      },
+      "vincendos": {
+        "quantidade": 4,
+        "valor": 32476706.83
+      }
+    },
+    "vencidos_por_periodo": {},
+    "sacados": {
+      "especial": {
+        "quantidade": 0,
+        "valor": 0,
+        "sacados_unicos": 0,
+        "maior_valor": 0
+      },
+      "nao_especial": {
+        "quantidade": 4,
+        "valor": 32476706.83,
+        "sacados_unicos": 0,
+        "maior_valor": 10768714.37
+      }
+    },
+    "novos_sacados": {
+      "quantidade": 0,
+      "valor": 0,
+      "sacados_unicos": 0
+    },
+    "substituidos_total": {
+      "quantidade": 0,
+      "valor": 0
+    },
+    "partes_relacionadas": {
+      "quantidade": 0,
+      "valor": 0,
+      "sacados_unicos": 0
+    }
+  },
+  "49ª - CRA Carteira": {
+    "nome": "49ª - CRA Carteira",
+    "total_titulos": 669,
+    "valor_total": 45774450.890000015,
+    "vencidos_vincendos": {
+      "vencidos": {
+        "quantidade": 20,
+        "valor": 316824.9
+      },
+      "vincendos": {
+        "quantidade": 649,
+        "valor": 45457625.99000001
+      }
+    },
+    "vencidos_por_periodo": {},
+    "sacados": {
+      "especial": {
+        "quantidade": 0,
+        "valor": 0,
+        "sacados_unicos": 0,
+        "maior_valor": 0
+      },
+      "nao_especial": {
+        "quantidade": 669,
+        "valor": 45774450.890000015,
+        "sacados_unicos": 0,
+        "maior_valor": 7535482.4
+      }
+    },
+    "novos_sacados": {
+      "quantidade": 0,
+      "valor": 0,
+      "sacados_unicos": 0
+    },
+    "substituidos_total": {
+      "quantidade": 0,
+      "valor": 0
+    },
+    "partes_relacionadas": {
+      "quantidade": 0,
+      "valor": 0,
+      "sacados_unicos": 0
+    }
+  },
+  "4ª - CRA Semeagro": {
+    "nome": "4ª - CRA Semeagro",
+    "total_titulos": 1767,
+    "valor_total": 56518764.75000001,
+    "vencidos_vincendos": {
+      "vencidos": {
+        "quantidade": 1670,
+        "valor": 46956407.760000005
+      },
+      "vincendos": {
+        "quantidade": 97,
+        "valor": 9562356.990000002
+      }
+    },
+    "vencidos_por_periodo": {},
+    "sacados": {
+      "especial": {
+        "quantidade": 0,
+        "valor": 0,
+        "sacados_unicos": 0,
+        "maior_valor": 0
+      },
+      "nao_especial": {
+        "quantidade": 1767,
+        "valor": 56518764.75000001,
+        "sacados_unicos": 0,
+        "maior_valor": 550000.0
+      }
+    },
+    "novos_sacados": {
+      "quantidade": 0,
+      "valor": 0,
+      "sacados_unicos": 0
+    },
+    "substituidos_total": {
+      "quantidade": 0,
+      "valor": 0
+    },
+    "partes_relacionadas": {
+      "quantidade": 0,
+      "valor": 0,
+      "sacados_unicos": 0
+    }
+  },
+  "50ª - CRA Carteira": {
+    "nome": "50ª - CRA Carteira",
+    "total_titulos": 35,
+    "valor_total": 41239018.89,
+    "vencidos_vincendos": {
+      "vencidos": {
+        "quantidade": 0,
+        "valor": 0
+      },
+      "vincendos": {
+        "quantidade": 35,
+        "valor": 41239018.89
+      }
+    },
+    "vencidos_por_periodo": {},
+    "sacados": {
+      "especial": {
+        "quantidade": 0,
+        "valor": 0,
+        "sacados_unicos": 0,
+        "maior_valor": 0
+      },
+      "nao_especial": {
+        "quantidade": 35,
+        "valor": 41239018.89,
+        "sacados_unicos": 0,
+        "maior_valor": 10036122.53
+      }
+    },
+    "novos_sacados": {
+      "quantidade": 0,
+      "valor": 0,
+      "sacados_unicos": 0
+    },
+    "substituidos_total": {
+      "quantidade": 0,
+      "valor": 0
+    },
+    "partes_relacionadas": {
+      "quantidade": 0,
+      "valor": 0,
+      "sacados_unicos": 0
+    }
+  },
+  "51ª - CRA Carteira": {
+    "nome": "51ª - CRA Carteira",
+    "total_titulos": 16,
+    "valor_total": 42108051.0,
+    "vencidos_vincendos": {
+      "vencidos": {
+        "quantidade": 0,
+        "valor": 0
+      },
+      "vincendos": {
+        "quantidade": 16,
+        "valor": 42108051.0
+      }
+    },
+    "vencidos_por_periodo": {},
+    "sacados": {
+      "especial": {
+        "quantidade": 0,
+        "valor": 0,
+        "sacados_unicos": 0,
+        "maior_valor": 0
+      },
+      "nao_especial": {
+        "quantidade": 16,
+        "valor": 42108051.0,
+        "sacados_unicos": 0,
+        "maior_valor": 7910000.0
+      }
+    },
+    "novos_sacados": {
+      "quantidade": 0,
+      "valor": 0,
+      "sacados_unicos": 0
+    },
+    "substituidos_total": {
+      "quantidade": 0,
+      "valor": 0
+    },
+    "partes_relacionadas": {
+      "quantidade": 0,
+      "valor": 0,
+      "sacados_unicos": 0
+    }
+  },
+  "52ª - CRA Carteira": {
+    "nome": "52ª - CRA Carteira",
+    "total_titulos": 2,
+    "valor_total": 33028420.47,
+    "vencidos_vincendos": {
+      "vencidos": {
+        "quantidade": 0,
+        "valor": 0
+      },
+      "vincendos": {
+        "quantidade": 2,
+        "valor": 33028420.47
+      }
+    },
+    "vencidos_por_periodo": {},
+    "sacados": {
+      "especial": {
+        "quantidade": 0,
+        "valor": 0,
+        "sacados_unicos": 0,
+        "maior_valor": 0
+      },
+      "nao_especial": {
+        "quantidade": 2,
+        "valor": 33028420.47,
+        "sacados_unicos": 0,
+        "maior_valor": 17468847.48
+      }
+    },
+    "novos_sacados": {
+      "quantidade": 0,
+      "valor": 0,
+      "sacados_unicos": 0
+    },
+    "substituidos_total": {
+      "quantidade": 0,
+      "valor": 0
+    },
+    "partes_relacionadas": {
+      "quantidade": 0,
+      "valor": 0,
+      "sacados_unicos": 0
+    }
+  },
+  "53ª - CRA Carteira": {
+    "nome": "53ª - CRA Carteira",
+    "total_titulos": 393,
+    "valor_total": 43286002.11,
+    "vencidos_vincendos": {
+      "vencidos": {
+        "quantidade": 1,
+        "valor": 12532.24
+      },
+      "vincendos": {
+        "quantidade": 392,
+        "valor": 43273469.86999999
+      }
+    },
+    "vencidos_por_periodo": {},
+    "sacados": {
+      "especial": {
+        "quantidade": 0,
+        "valor": 0,
+        "sacados_unicos": 0,
+        "maior_valor": 0
+      },
+      "nao_especial": {
+        "quantidade": 393,
+        "valor": 43286002.11,
+        "sacados_unicos": 0,
+        "maior_valor": 14041305.98
+      }
+    },
+    "novos_sacados": {
+      "quantidade": 0,
+      "valor": 0,
+      "sacados_unicos": 0
+    },
+    "substituidos_total": {
+      "quantidade": 0,
+      "valor": 0
+    },
+    "partes_relacionadas": {
+      "quantidade": 0,
+      "valor": 0,
+      "sacados_unicos": 0
+    }
+  },
+  "54ª- CRA Carteira": {
+    "nome": "54ª- CRA Carteira",
+    "total_titulos": 247,
+    "valor_total": 22862890.120000005,
+    "vencidos_vincendos": {
+      "vencidos": {
+        "quantidade": 1,
+        "valor": 11633.34
+      },
+      "vincendos": {
+        "quantidade": 246,
+        "valor": 22851256.78
+      }
+    },
+    "vencidos_por_periodo": {},
+    "sacados": {
+      "especial": {
+        "quantidade": 0,
+        "valor": 0,
+        "sacados_unicos": 0,
+        "maior_valor": 0
+      },
+      "nao_especial": {
+        "quantidade": 247,
+        "valor": 22862890.120000005,
+        "sacados_unicos": 0,
+        "maior_valor": 10945196.79
+      }
+    },
+    "novos_sacados": {
+      "quantidade": 0,
+      "valor": 0,
+      "sacados_unicos": 0
+    },
+    "substituidos_total": {
+      "quantidade": 0,
+      "valor": 0
+    },
+    "partes_relacionadas": {
+      "quantidade": 0,
+      "valor": 0,
+      "sacados_unicos": 0
+    }
+  },
+  "55ª - CRA Carteira": {
+    "nome": "55ª - CRA Carteira",
+    "total_titulos": 152,
+    "valor_total": 38769718.989999995,
+    "vencidos_vincendos": {
+      "vencidos": {
+        "quantidade": 0,
+        "valor": 0
+      },
+      "vincendos": {
+        "quantidade": 152,
+        "valor": 38769718.989999995
+      }
+    },
+    "vencidos_por_periodo": {},
+    "sacados": {
+      "especial": {
+        "quantidade": 0,
+        "valor": 0,
+        "sacados_unicos": 0,
+        "maior_valor": 0
+      },
+      "nao_especial": {
+        "quantidade": 152,
+        "valor": 38769718.989999995,
+        "sacados_unicos": 0,
+        "maior_valor": 10945196.79
+      }
+    },
+    "novos_sacados": {
+      "quantidade": 0,
+      "valor": 0,
+      "sacados_unicos": 0
+    },
+    "substituidos_total": {
+      "quantidade": 0,
+      "valor": 0
+    },
+    "partes_relacionadas": {
+      "quantidade": 0,
+      "valor": 0,
+      "sacados_unicos": 0
+    }
+  },
+  "6ª - CRA Tec Plante": {
+    "nome": "6ª - CRA Tec Plante",
+    "total_titulos": 594,
+    "valor_total": 29410994.249999996,
+    "vencidos_vincendos": {
+      "vencidos": {
+        "quantidade": 594,
+        "valor": 29410994.249999996
+      },
+      "vincendos": {
+        "quantidade": 0,
+        "valor": 0
+      }
+    },
+    "vencidos_por_periodo": {},
+    "sacados": {
+      "especial": {
+        "quantidade": 0,
+        "valor": 0,
+        "sacados_unicos": 0,
+        "maior_valor": 0
+      },
+      "nao_especial": {
+        "quantidade": 594,
+        "valor": 29410994.249999996,
+        "sacados_unicos": 0,
+        "maior_valor": 1194625.0
+      }
+    },
+    "novos_sacados": {
+      "quantidade": 0,
+      "valor": 0,
+      "sacados_unicos": 0
+    },
+    "substituidos_total": {
+      "quantidade": 0,
+      "valor": 0
+    },
+    "partes_relacionadas": {
+      "quantidade": 0,
+      "valor": 0,
+      "sacados_unicos": 0
+    }
+  },
+  "8ª - CRA Hortsoy": {
+    "nome": "8ª - CRA Hortsoy",
+    "total_titulos": 17673,
+    "valor_total": 296468595.2799999,
+    "vencidos_vincendos": {
+      "vencidos": {
+        "quantidade": 17673,
+        "valor": 296468595.2799999
+      },
+      "vincendos": {
+        "quantidade": 0,
+        "valor": 0
+      }
+    },
+    "vencidos_por_periodo": {},
+    "sacados": {
+      "especial": {
+        "quantidade": 0,
+        "valor": 0,
+        "sacados_unicos": 0,
+        "maior_valor": 0
+      },
+      "nao_especial": {
+        "quantidade": 17673,
+        "valor": 296468595.2799999,
+        "sacados_unicos": 0,
+        "maior_valor": 1583879.0
+      }
+    },
+    "novos_sacados": {
+      "quantidade": 0,
+      "valor": 0,
+      "sacados_unicos": 0
+    },
+    "substituidos_total": {
+      "quantidade": 0,
+      "valor": 0
+    },
+    "partes_relacionadas": {
+      "quantidade": 0,
+      "valor": 0,
+      "sacados_unicos": 0
+    }
+  },
+  "9ª - CRA Esteio Rural": {
+    "nome": "9ª - CRA Esteio Rural",
+    "total_titulos": 2357,
+    "valor_total": 156134877.70000008,
+    "vencidos_vincendos": {
+      "vencidos": {
+        "quantidade": 2174,
+        "valor": 128608235.26000005
+      },
+      "vincendos": {
+        "quantidade": 183,
+        "valor": 27526642.44
+      }
+    },
+    "vencidos_por_periodo": {},
+    "sacados": {
+      "especial": {
+        "quantidade": 0,
+        "valor": 0,
+        "sacados_unicos": 0,
+        "maior_valor": 0
+      },
+      "nao_especial": {
+        "quantidade": 2357,
+        "valor": 156134877.70000008,
+        "sacados_unicos": 0,
+        "maior_valor": 1098800.0
+      }
+    },
+    "novos_sacados": {
+      "quantidade": 0,
+      "valor": 0,
+      "sacados_unicos": 0
+    },
+    "substituidos_total": {
+      "quantidade": 0,
+      "valor": 0
+    },
+    "partes_relacionadas": {
+      "quantidade": 0,
+      "valor": 0,
+      "sacados_unicos": 0
+    }
+  }
+}

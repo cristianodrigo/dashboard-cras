@@ -1,0 +1,74 @@
+{
+  "25ª CRA Eloagrícola": {
+    "sacado_especial": 1650000,
+    "sacado_nao_especial": 990000,
+    "soma_sacados_especiais": 9900000,
+    "novos_sacados": 4950000,
+    "partes_relacionadas": 3300000,
+    "indice_substituicao": 6600000
+  },
+  "33ª - CRA Agro Boa Esperança": {
+    "sacado_especial": 550000,
+    "sacado_nao_especial": 330000,
+    "soma_sacados_especiais": 2250000,
+    "novos_sacados": 1500000,
+    "partes_relacionadas": 1000000,
+    "indice_substituicao": 2750000
+  },
+  "34ª CRA Nativa": {
+    "sacado_especial": 1155000,
+    "sacado_nao_especial": 693000,
+    "soma_sacados_especiais": 4620000,
+    "novos_sacados": 4620000,
+    "partes_relacionadas": 4620000,
+    "indice_substituicao": 4620000
+  },
+  "39ª - CRA Valoriza Agronegócios": {
+    "sacado_especial": 3300000,
+    "sacado_nao_especial": 1980000,
+    "soma_sacados_especiais": 16500000,
+    "novos_sacados": 9900000,
+    "partes_relacionadas": 6600000,
+    "indice_substituicao": 16500000
+  },
+  "40ª - CRA BR AGRO": {
+    "sacado_especial": 3000000,
+    "sacado_nao_especial": 1800000,
+    "soma_sacados_especiais": "15.000.00,00",
+    "novos_sacados": 4800000,
+    "partes_relacionadas": null,
+    "indice_substituicao": null
+  },
+  "4ª - CRA Semeagro": {
+    "sacado_especial": 550000,
+    "sacado_nao_especial": 330000,
+    "soma_sacados_especiais": 4400000,
+    "novos_sacados": 1650000,
+    "partes_relacionadas": 1100000,
+    "indice_substituicao": 2750000
+  },
+  "7ª - CDCA Via Agrícola": {
+    "sacado_especial": 550000,
+    "sacado_nao_especial": 330000,
+    "soma_sacados_especiais": 4400000,
+    "novos_sacados": 1650000,
+    "partes_relacionadas": 1100000,
+    "indice_substituicao": 2750000
+  },
+  "8ª - CRA Hortsoy": {
+    "sacado_especial": 2640000,
+    "sacado_nao_especial": 1980000,
+    "soma_sacados_especiais": 13200000,
+    "novos_sacados": 6600000,
+    "partes_relacionadas": 6600000,
+    "indice_substituicao": null
+  },
+  "9ª - CRA Esteio Rural": {
+    "sacado_especial": 1100000,
+    "sacado_nao_especial": 825000,
+    "soma_sacados_especiais": 5500000,
+    "novos_sacados": 2750000,
+    "partes_relacionadas": 2750000,
+    "indice_substituicao": 6875000
+  }
+}

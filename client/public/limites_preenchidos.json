@@ -1,0 +1,71 @@
+{
+  "25ª CRA Eloagrícola": {
+    "limite_conc_individual_sacado_especial": 1650000.0,
+    "limite_conc_individual_sacado_nao_especial": 990000.0,
+    "limite_soma_sacados_especiais": 9900000.0,
+    "limite_novos_sacados": 4950000.0,
+    "limite_partes_relacionadas": 3300000.0,
+    "limite_indice_substituicao": 6600000.0
+  },
+  "33ª - CRA Agro Boa Esperança": {
+    "limite_conc_individual_sacado_especial": 550000.0,
+    "limite_conc_individual_sacado_nao_especial": 330000.0,
+    "limite_soma_sacados_especiais": 2250000.0,
+    "limite_novos_sacados": 1500000.0,
+    "limite_partes_relacionadas": 1000000.0,
+    "limite_indice_substituicao": 2750000.0
+  },
+  "34ª CRA Nativa": {
+    "limite_conc_individual_sacado_especial": 1155000.0,
+    "limite_conc_individual_sacado_nao_especial": 693000.0,
+    "limite_soma_sacados_especiais": 4620000.0,
+    "limite_novos_sacados": 4620000.0,
+    "limite_partes_relacionadas": 4620000.0,
+    "limite_indice_substituicao": 4620000.0
+  },
+  "39ª - CRA Valoriza Agronegócios": {
+    "limite_conc_individual_sacado_especial": 3300000.0,
+    "limite_conc_individual_sacado_nao_especial": 1980000.0,
+    "limite_soma_sacados_especiais": 16500000.0,
+    "limite_novos_sacados": 9900000.0,
+    "limite_partes_relacionadas": 6600000.0,
+    "limite_indice_substituicao": 16500000.0
+  },
+  "40ª - CRA BR AGRO": {
+    "limite_conc_individual_sacado_especial": 3000000.0,
+    "limite_conc_individual_sacado_nao_especial": 1800000.0,
+    "limite_soma_sacados_especiais": 1500000.0,
+    "limite_novos_sacados": 4800000.0
+  },
+  "4ª - CRA Semeagro": {
+    "limite_conc_individual_sacado_especial": 550000.0,
+    "limite_conc_individual_sacado_nao_especial": 330000.0,
+    "limite_soma_sacados_especiais": 4400000.0,
+    "limite_novos_sacados": 1650000.0,
+    "limite_partes_relacionadas": 1100000.0,
+    "limite_indice_substituicao": 2750000.0
+  },
+  "7ª - CDCA Via Agrícola": {
+    "limite_conc_individual_sacado_especial": 550000.0,
+    "limite_conc_individual_sacado_nao_especial": 330000.0,
+    "limite_soma_sacados_especiais": 4400000.0,
+    "limite_novos_sacados": 1650000.0,
+    "limite_partes_relacionadas": 1100000.0,
+    "limite_indice_substituicao": 2750000.0
+  },
+  "8ª - CRA Hortsoy": {
+    "limite_conc_individual_sacado_especial": 2640000.0,
+    "limite_conc_individual_sacado_nao_especial": 1980000.0,
+    "limite_soma_sacados_especiais": 13200000.0,
+    "limite_novos_sacados": 6600000.0,
+    "limite_partes_relacionadas": 6600000.0
+  },
+  "9ª - CRA Esteio Rural": {
+    "limite_conc_individual_sacado_especial": 1100000.0,
+    "limite_conc_individual_sacado_nao_especial": 825000.0,
+    "limite_soma_sacados_especiais": 5500000.0,
+    "limite_novos_sacados": 2750000.0,
+    "limite_partes_relacionadas": 2750000.0,
+    "limite_indice_substituicao": 6875000.0
+  }
+}

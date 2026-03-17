@@ -1,0 +1,164 @@
+{
+  "1ª - CRA URA (Artesanal)": {
+    "valor_total": 87918425.25,
+    "vencidos": 575,
+    "vincendos": 210,
+    "titulos_count": 785
+  },
+  "22ª - CRA Portal Agro": {
+    "valor_total": 154266675.12,
+    "vencidos": 95,
+    "vincendos": 307,
+    "titulos_count": 402
+  },
+  "25ª CRA Eloagrícola": {
+    "valor_total": 63888398.55,
+    "vencidos": 2359,
+    "vincendos": 53,
+    "titulos_count": 2412
+  },
+  "28ª - CRA Ura Agro (13) Renovagro": {
+    "valor_total": 6638830.88,
+    "vencidos": 10,
+    "vincendos": 0,
+    "titulos_count": 10
+  },
+  "33ª - CRA Agro Boa Esperança": {
+    "valor_total": 14430913.44,
+    "vencidos": 295,
+    "vincendos": 1,
+    "titulos_count": 296
+  },
+  "34ª CRA Nativa": {
+    "valor_total": 52966938.04,
+    "vencidos": 506,
+    "vincendos": 231,
+    "titulos_count": 737
+  },
+  "36ª CRA URA AGRO (17)": {
+    "valor_total": 35160160.25,
+    "vencidos": 1193,
+    "vincendos": 53,
+    "titulos_count": 1246
+  },
+  "39ª - CRA Valoriza Agronegócios": {
+    "valor_total": 81843289.95,
+    "vencidos": 1666,
+    "vincendos": 134,
+    "titulos_count": 1800
+  },
+  "40ª - CRA BR AGRO": {
+    "valor_total": 78769478.29,
+    "vencidos": 1136,
+    "vincendos": 989,
+    "titulos_count": 2125
+  },
+  "42ª - CRA Ceres": {
+    "valor_total": 1901557307.99,
+    "vencidos": 7176,
+    "vincendos": 3682,
+    "titulos_count": 10858
+  },
+  "43ª - CRA Gurupi": {
+    "valor_total": 15262711.94,
+    "vencidos": 0,
+    "vincendos": 242,
+    "titulos_count": 242
+  },
+  "44ª - CRA Carteira": {
+    "valor_total": 45748171.98,
+    "vencidos": 106,
+    "vincendos": 258,
+    "titulos_count": 364
+  },
+  "45ª - CRA Carteira": {
+    "valor_total": 47730818.46,
+    "vencidos": 34,
+    "vincendos": 263,
+    "titulos_count": 297
+  },
+  "46ª - CRA Carteira": {
+    "valor_total": 43257389.0,
+    "vencidos": 9,
+    "vincendos": 495,
+    "titulos_count": 504
+  },
+  "47ª CRA Carteira": {
+    "valor_total": 33189302.35,
+    "vencidos": 0,
+    "vincendos": 4,
+    "titulos_count": 4
+  },
+  "48ª - CRA Carteira": {
+    "valor_total": 32476706.83,
+    "vencidos": 0,
+    "vincendos": 4,
+    "titulos_count": 4
+  },
+  "49ª - CRA Carteira": {
+    "valor_total": 45774450.89,
+    "vencidos": 20,
+    "vincendos": 649,
+    "titulos_count": 669
+  },
+  "4ª - CRA Semeagro": {
+    "valor_total": 56518764.75,
+    "vencidos": 1670,
+    "vincendos": 97,
+    "titulos_count": 1767
+  },
+  "50ª - CRA Carteira": {
+    "valor_total": 41239018.89,
+    "vencidos": 0,
+    "vincendos": 35,
+    "titulos_count": 35
+  },
+  "51ª - CRA Carteira": {
+    "valor_total": 42108051.0,
+    "vencidos": 0,
+    "vincendos": 16,
+    "titulos_count": 16
+  },
+  "52ª - CRA Carteira": {
+    "valor_total": 33028420.47,
+    "vencidos": 0,
+    "vincendos": 2,
+    "titulos_count": 2
+  },
+  "53ª - CRA Carteira": {
+    "valor_total": 43286002.11,
+    "vencidos": 1,
+    "vincendos": 392,
+    "titulos_count": 393
+  },
+  "54ª- CRA Carteira": {
+    "valor_total": 22862890.12,
+    "vencidos": 1,
+    "vincendos": 246,
+    "titulos_count": 247
+  },
+  "55ª - CRA Carteira": {
+    "valor_total": 38769718.99,
+    "vencidos": 0,
+    "vincendos": 152,
+    "titulos_count": 152
+  },
+  "6ª - CRA Tec Plante": {
+    "valor_total": 29410994.25,
+    "vencidos": 594,
+    "vincendos": 0,
+    "titulos_count": 594
+  },
+  "8ª - CRA Hortsoy": {
+    "valor_total": 296468595.28,
+    "vencidos": 17673,
+    "vincendos": 0,
+    "titulos_count": 17673
+  },
+  "9ª - CRA Esteio Rural": {
+    "valor_total": 156134877.7,
+    "vencidos": 2174,
+    "vincendos": 183,
+    "titulos_count": 2357
+  }
+}

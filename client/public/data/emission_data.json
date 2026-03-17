@@ -1,0 +1,119 @@
+{
+  "1ª - CRA URA (Artesanal)": {
+    "planilha_name": "Ura Agro I",
+    "volume": 17338064.24,
+    "data_vencimento": "05/10/2022",
+    "data_emissao": "24/02/2022",
+    "garantia": "Cessão fiduciária dos direitos creditórios do agronegócio (Duplicatas e CPR-F); coobrigação das Revendas Agrícolas; e Regime Fiduciário sobre Patrimônio Separado",
+    "lastro": "Duplicatas e CPR-F cedidas pelo URA Agro FIDC, originadas de operações com revendas agrícolas",
+    "taxa_lastro": "SR: 18,857% a.a.                  JR: 12,6825% a.a."
+  },
+  "4ª - CRA Semeagro": {
+    "planilha_name": "Semeagro",
+    "volume": 10625000.0,
+    "data_vencimento": "20/07/2026",
+    "data_emissao": "21/07/2022",
+    "garantia": "Aval + Cessão fiduciária",
+    "lastro": "CDCA",
+    "taxa_lastro": "SR: CDI + 5,56%                JR: 1,00% a.a."
+  },
+  "7ª - CDCA Via Agrícola": {
+    "planilha_name": "Via Agrícola",
+    "volume": 10670000.0,
+    "data_vencimento": "28/08/2026",
+    "data_emissao": "1ª série: 01/09/2022      2ª série: 10/11/2022",
+    "garantia": "Aval + Cessão fiduciária",
+    "lastro": "CDCA",
+    "taxa_lastro": "1ª e 2ª série: CDI + 5,00%"
+  },
+  "8ª - CRA Hortsoy": {
+    "planilha_name": "Hortsoy",
+    "volume": 60000000.0,
+    "data_vencimento": "27/10/2026",
+    "data_emissao": "31/10/2022",
+    "garantia": "Aval + Cessão fiduciária",
+    "lastro": "CDCA",
+    "taxa_lastro": "SR: CDI + 4,50%               JR: 100% do CDI"
+  },
+  "9ª - CRA Esteio Rural": {
+    "planilha_name": "Esteio Rural",
+    "volume": 25000000.0,
+    "data_vencimento": "30/11/2026",
+    "data_emissao": "01/12/2022",
+    "garantia": "Aval + Cessão fiduciária",
+    "lastro": "CDCA",
+    "taxa_lastro": "SR: CDI + 5,50%               JR: CDI + 7,00%"
+  },
+  "22ª - CRA Portal Agro": {
+    "planilha_name": "Portal Agro",
+    "volume": 122247000.0,
+    "data_vencimento": "31/08/2027",
+    "data_emissao": "19/07/2023",
+    "garantia": "Cessão Fiduciária de Direitos Creditórios (Duplicatas, CPR e Recebíveis de Compra e Venda); Aval prestado por JARL Agropecuária Ltda., ELM Agropecuária Ltda., IRDB Holding Agro Ltda., Gilson Maraschin, Gilberto Maraschin e Rafael Bogo",
+    "lastro": "CDCA",
+    "taxa_lastro": "SR1: IPCA + 9,00%        SR2: CDI + 6,00%                  SUB: 100% do CDI"
+  },
+  "25ª CRA Eloagrícola": {
+    "planilha_name": "Eloagrícola",
+    "volume": 30000000.0,
+    "data_vencimento": "29/11/2027",
+    "data_emissao": "20/10/2023",
+    "garantia": "Cessão Fiduciária de direitos creditórios + Aval (Baltazar dos Reis Alves; Luiz Antonio Flor; Eduardo Batista de Castro Jr.).",
+    "lastro": "CDCA",
+    "taxa_lastro": "SR: CDI + 6%                JR: CDI + 7%"
+  },
+  "33ª - CRA Agro Boa Esperança": {
+    "planilha_name": "Agro Boa Esperança",
+    "volume": 10000000.0,
+    "data_vencimento": "28/12/2027",
+    "data_emissao": "08/12/2023",
+    "garantia": "Cessão Fiduciária de Direitos Creditórios + Aval pessoal de Jucilene de Castro",
+    "lastro": "CDCA",
+    "taxa_lastro": "SR: CDI + 8%                   JR: 1%a.a."
+  },
+  "34ª CRA Nativa": {
+    "planilha_name": "Nativa",
+    "volume": 21000000.0,
+    "data_vencimento": "29/12/2027",
+    "data_emissao": "18/12/2023",
+    "garantia": "Cessão Fiduciária de Direitos Creditórios + Aval sócios",
+    "lastro": "CDCA",
+    "taxa_lastro": "SR: CDI + 6%                   JR: 1%a.a."
+  },
+  "36ª CRA URA AGRO (17)": {
+    "planilha_name": "Ura Agro XVI",
+    "volume": 51000000.0,
+    "data_vencimento": "07/04/2025",
+    "data_emissao": "30/01/2024",
+    "garantia": "Cessão fiduciária dos direitos creditórios do agronegócio (Duplicatas e CPR-F); coobrigação das Revendas Agrícolas; e Regime Fiduciário sobre Patrimônio Separado",
+    "lastro": "Duplicatas e CPR-F cedidas pelo URA Agro FIDC, originadas de operações com revendas agrícolas",
+    "taxa_lastro": "SR: 13,78%                   JR: 16,62%"
+  },
+  "39ª - CRA Valoriza Agronegócios": {
+    "planilha_name": "Valoriza",
+    "volume": 54400000.0,
+    "data_vencimento": "30/06/2028",
+    "data_emissao": "08/08/2024",
+    "garantia": "Cessão Fiduciária + Aval (Valoriza Participações e Sócios)",
+    "lastro": "CPRF",
+    "taxa_lastro": "SR: CDI + 5,50%                   JR: CDI + 6,00%"
+  },
+  "40ª - CRA BR AGRO": {
+    "planilha_name": "BR Agro",
+    "volume": 60000000.0,
+    "data_vencimento": "30/12/2028",
+    "data_emissao": "13/11/2024",
+    "garantia": "(i) garantias reais/fiduciárias sobre o lastro e (ii) garantias pessoais dos sócios da Elo.",
+    "lastro": "Direitos Creditórios do Agronegócio (principais e acessórios) oriundos de vendas diretas (duplicatas e/ou CPR-F) e de operações de Barter vinculadas a CPR (física), monetizadas via Tradings Elegíveis.",
+    "taxa_lastro": "SR: CDI + 5,00%                   JR: 100% do CDI"
+  },
+  "42ª - CRA Ceres": {
+    "planilha_name": "Ura Agro XIX",
+    "volume": 27680000.0,
+    "data_vencimento": "27/02/2026",
+    "data_emissao": "04/04/2025",
+    "garantia": "Cessão fiduciária dos direitos creditórios do agronegócio (Duplicatas e CPR-F); coobrigação das Revendas Agrícolas; e Regime Fiduciário sobre Patrimônio Separado",
+    "lastro": "Duplicatas e CPR-F cedidas pelo URA Agro FIDC, originadas de operações com revendas agrícolas",
+    "taxa_lastro": "SR: 20,50%                   JR: Em forma de prêmio"
+  }
+}

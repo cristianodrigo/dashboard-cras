@@ -1,0 +1,38 @@
+{
+  "22ª - CRA Portal Agro": {
+    "proximo_pagamento_juros": "27/02/2026",
+    "proximo_pagamento_amortizacao": "31/08/2026"
+  },
+  "7ª - CDCA Via Agrícola": {
+    "proximo_pagamento_juros": "29/04/2026",
+    "proximo_pagamento_amortizacao": null
+  },
+  "25ª CRA Eloagrícola": {
+    "proximo_pagamento_juros": "27/05/2026",
+    "proximo_pagamento_amortizacao": null
+  },
+  "33ª - CRA Agro Boa Esperança": {
+    "proximo_pagamento_juros": "29/05/2026",
+    "proximo_pagamento_amortizacao": null
+  },
+  "34ª CRA Nativa": {
+    "proximo_pagamento_juros": "29/05/2026",
+    "proximo_pagamento_amortizacao": null
+  },
+  "9ª - CRA Esteio Rural": {
+    "proximo_pagamento_juros": "26/06/2026",
+    "proximo_pagamento_amortizacao": null
+  },
+  "8ª - CRA Hortsoy": {
+    "proximo_pagamento_juros": "30/06/2026",
+    "proximo_pagamento_amortizacao": null
+  },
+  "39ª - CRA Valoriza Agronegócios": {
+    "proximo_pagamento_juros": "30/06/2026",
+    "proximo_pagamento_amortizacao": "30/06/2028"
+  },
+  "4ª - CRA Semeagro": {
+    "proximo_pagamento_juros": "20/07/2026",
+    "proximo_pagamento_amortizacao": null
+  }
+}

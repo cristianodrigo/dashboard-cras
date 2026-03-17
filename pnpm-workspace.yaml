@@ -1,0 +1,5 @@
+ignoredBuiltDependencies:
+  - '@tailwindcss/oxide'
+  - better-sqlite3
+  - core-js
+  - esbuild
