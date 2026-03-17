@@ -1,5 +1,5 @@
 FROM node:20-alpine AS base
-RUN corepack enable && corepack prepare pnpm@10.4.1 --activate
+RUN corepack enable && corepack prepare pnpm@10.28.2 --activate
 WORKDIR /app
 
 # ── Dependências ────────────────────────────────────────────────
@@ -7,7 +7,7 @@ FROM base AS deps
 RUN apk add --no-cache python3 make g++
 COPY package.json pnpm-lock.yaml pnpm-workspace.yaml ./
 COPY patches/ patches/
-RUN pnpm install --frozen-lockfile
+RUN pnpm install
 
 # ── Build ───────────────────────────────────────────────────────
 FROM base AS build
@@ -23,12 +23,6 @@ RUN apk add --no-cache tini
 COPY --from=build /app/dist ./dist
 COPY --from=deps  /app/node_modules ./node_modules
 COPY package.json ./
-
-COPY client/public/data/          dist/public/data/
-COPY client/public/cra_image_mapping.json  dist/public/cra_image_mapping.json
-COPY client/public/limites_preenchidos.json dist/public/limites_preenchidos.json
-COPY client/public/images/        dist/public/images/
-COPY client/public/logo-gci.png   dist/public/logo-gci.png
 
 ENV NODE_ENV=production
 ENV PORT=3000
